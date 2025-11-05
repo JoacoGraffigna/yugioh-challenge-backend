@@ -20,6 +20,7 @@ async function bootstrap() {
     .setTitle('Yu-Gi-Oh API')
     .setDescription('API REST para gestión de cartas de Yu-Gi-Oh')
     .setVersion('1.0')
+    .addServer('/')
     .build();
 
   const document = SwaggerModule.createDocument(app, config);
